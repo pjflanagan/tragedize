@@ -1,0 +1,31 @@
+/*h1.vUkNo span._31bYW::before a span {
+	content: "For Sale: ";
+}
+
+h1.vUkNo span.H35Ih::after a span {
+	content: ", Never Worn"
+}*/
+
+h1 span[itemprop="brand"] a[itemprop="url"] span[itemprop="name"]::before {
+	content: "For Sale: "
+}
+
+h1 span[itemprop="name"] a::after {
+	content: ", Never Worn."
+}
+
+
+/**
+<h1 class="vUkNo">
+	<span class="_31bYW" itemprop="brand" itemscope="" itemtype="http://schema.org/Brand">
+		<a itemprop="url" href="/b/timberland/brand/160">
+			<span itemprop="name">Timberland</span>
+		</a>
+	</span> 
+
+	<span class="H35Ih" itemprop="name">
+		<a href="/p/timberland-6-premium-boot/product/110028">6" Premium Boot</a>
+	</span>
+</h1>
+
+*/
